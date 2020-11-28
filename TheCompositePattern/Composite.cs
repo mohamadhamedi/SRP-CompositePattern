@@ -5,7 +5,7 @@ namespace TheCompositePattern
 {
     public class Composite : IComponent
     {
-        private readonly List<IComponent> _children = new List<IComponent>();
+        private readonly List<IComponent> _children   = new List<IComponent>();
         private readonly String name = String.Empty;
 
         public Composite(String sname)
